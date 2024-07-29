@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+h1{
+    text-align: center;
+    
+}
+body {
+  font-family: sans-serif;
+
+}
+
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  form {
+      display: grid;
+      justify-content: center;
+      text-align: center;
+      border: 2px solid black;
+      margin: 30px 30px;
+      padding: 20px;
+      width: 30%;
+      background-color:bisque;
+  } 
+  .form-q {
+      margin: 0px 10px;
+      h4 {
+          text-align: left;
+      }
+      input {
+          padding: 10px 20px;
+      }
+  }
+
+  .form-btn {
+      button{
+          margin: 30px 10px;
+          padding: 10px 30px;
+          width: 213px;
+          font-size: 20px;
+          color: white;
+          background-color: chocolate;
+          border: 2px solid black;
+          border-radius: 10px;
+      }
+  }
+}
+
+p{
+    text-align: center;
+}
+.table{
+    padding: 5rem;
+}
+
+.page{
+    text-align: center;
+    justify-content: center;
+}
